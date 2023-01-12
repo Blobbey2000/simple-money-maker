@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="8Fqb|TL!aJ.^*LyzZK6W">howMuchMoney</variable></variables></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="7AJ@*X9GXj20m5e~u7T8">credit</variable><variable id="kmy][K/|m#2hNN^X4yJ8">mySprite</variable><variable type="KIND_SpriteKind" id="j_n{w@l]iLJyLsO(*nOz">Player</variable><variable type="KIND_SpriteKind" id="2WA$Pdiy(y2v2Org~|C3">Projectile</variable><variable type="KIND_SpriteKind" id="}X]bA%M^5OEJCBFC,Oq@">Food</variable><variable type="KIND_SpriteKind" id="77e955/h%sv#kK96V7!T">Enemy</variable></variables><block type="pxt-on-start" id="YV@h9Z)?Er9PzYxMZy*d" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id=":vC$u3]OUn1mS$,1,)8B"><field name="VAR" id="kmy][K/|m#2hNN^X4yJ8">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id=".V?,`6P9lf(w^^Of~r8i"><value name="img"><shadow type="screen_image_picker" id="dQ#xre$/c`)63=[E-.))"><field name="img">img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"dQ#xre$/c`)63=[E-.))"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="(}7_t%ix(1hM.Z~GAhkF"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="V7TLzouKW~u~O3@|uVc#"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="this"><shadow type="variables_get" id=")g4Gms(,e..ImuT}K.ao"><field name="VAR" id="kmy][K/|m#2hNN^X4yJ8">mySprite</field></shadow></value><value name="text"><shadow type="text" id="Z0I@V,um?TPnS4gF[6+~"><field name="TEXT"></field></shadow><block type="Credits_credit" id=")`shgZ.1BP6w~32Xv,ay"><value name="developer"><shadow type="text" id="3M_DA$*m71e$g_{V:@-S"><field name="TEXT">Blobbey</field></shadow></value></block></value><value name="timeOnScreen"><shadow type="timePicker" id="(S.jt=T!bWN/GsFQa4l7"><field name="ms">500</field></shadow></value><value name="animated"><shadow type="logic_boolean" id="JqxD`LQ`hzq@-+Xu.RkQ"><field name="BOOL">FALSE</field></shadow></value></block></next></block></statement></block></xml>
